@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="text">
+      <p>Calculator</p>
+    </div>
+    <div class="main">
+      <div class="calculator">
+        <div class="display">
+          <input type="text" class="display-input" readonly />
+        </div>
+        <div class="calc">
+          <div class="operators">
+            <button value="clear" class="clear" style="color: red;">C</button>
+          </div>
+          <div class="operators">
+            <button value="sin" class="operator">sin</button>
+            <button value="cos" class="operator">cos</button>
+            <button value="tan" class="operator">tan</button>
+            <button value="/" class="operator">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="15">
+                <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                fill="#318607"  d="M272 96a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 320a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM400 288c17.7 0 32-14.3 32-32s-14.3-32-32-32L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l352 0z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div>
+            <button value="7" class="digit">7</button>
+            <button value="8" class="digit">8</button>
+            <button value="9" class="digit">9</button>
+            <button value="*" class="operator">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" height="15">
+                <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                fill="#318607"  d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div>
+            <button value="4" class="digit">4</button>
+            <button value="5" class="digit">5</button>
+            <button value="6" class="digit">6</button>
+            <button value="-" class="operator">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="15">
+                <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                fill="#318607"  d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div>
+            <button value="1" class="digit">1</button>
+            <button value="2" class="digit">2</button>
+            <button value="3" class="digit">3</button>
+            <button value="+" class="operator">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="15">
+                <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                fill="#318607"  d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 144L48 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l144 0 0 144c0 17.7 14.3 32 32 32s32-14.3 32-32l0-144 144 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-144 0 0-144z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div>
+            <button value="%" class="operator">%</button>
+            <button value="0" class="digit">0</button>
+            <button value="." class="operator">.</button>
+            <button
+              value="="
+              class="operator"
+              style="background-color: #318607"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="15">
+                <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path
+                fill="#FFFFFF"  d="M48 128c-17.7 0-32 14.3-32 32s14.3 32 32 32l352 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L48 128zm0 192c-17.7 0-32 14.3-32 32s14.3 32 32 32l352 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L48 320z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../script.js"></script>
+  </body>
+</html>

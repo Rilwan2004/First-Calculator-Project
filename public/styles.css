@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(255, 255, 255);
+
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    color:  #000000;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.calculator{
+    display: inline-block;
+    background-color: #000000;
+    padding: 25px;
+    border-radius: 10px;
+}
+button{
+    margin: 5px;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    border: none;
+    background-color: #171719;
+    color: #FFFF;
+}
+
+.operators button{
+    background-color: #2D2D2F ;
+    color: #318607
+}
+.operator{
+    background-color: #2D2D2F;
+    color: #318607
+}
+.display-input{
+    width:250px;
+    height: 50px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    }
+.display{
+    display: flex;
+    justify-content: center;
+}
